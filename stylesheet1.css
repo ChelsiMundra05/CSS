@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    color: #80007E;
+}
+body{
+    background-color: #e5ff00;
+}
+
+
+ul li{
+    width: 150px;
+    background-color: white;
+    margin: 5px;
+    padding: 8px 10px 8px 5px;
+    border-right: 10px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.copyright{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.8em;
+}
+
+.same{
+    display: table;
+}
+.same ul{
+    display: table-cell;
+    list-style: none;
+    
+}
+.same p{
+    display: table-cell;
+    padding-left: 30px;
+}
+hr{
+    border: 0.5px dotted;
+    width: 1500px;
+}

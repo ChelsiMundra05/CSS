@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    vertical-align: middle;
+    width: 800px;
+    height: 500px;
+    margin: 10px;
+}
+/*for pink block*/
+.container {
+    background-color: #FF9999;
+    text-align: center justify;
+    color: black;
+    border: 1px solid black;
+    width: 600px;
+    height: 150px;
+    vertical-align: middle;
+    align-items: center;
+    padding: 5px 100px 5px 100px;
+    
+}
+/*for heading in pink*/
+#heading{
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 25px;
+}
+/*for paragrapgh in pink*/
+#para{
+    font-size: 19px;
+}
+
+/*for inlining both images*/
+.garapic {
+    display: table;
+    width: 800px;
+    table-layout: fixed;
+}
+
+/*for image 1*/
+.inner1{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 570px;
+    display: table-cell;
+}
+
+#one{
+    padding: 5px 5px 1px 5px;
+    width: 560px;
+    height: 330px;
+}
+
+/*for image2*/
+.inner2{
+    width: 200px;
+    background-color: #ECECFB;
+    text-align: center;
+    border: 1px solid black;
+    vertical-align: middle;
+    display: table-cell;
+    padding: 15px 15px 15px 15px;
+}
+
+#two{
+    align-items: center;
+    width: 70px;
+    height: 100px;
+}
